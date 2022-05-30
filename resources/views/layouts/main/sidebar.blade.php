@@ -25,7 +25,7 @@
                     <a href="#" class="nav-link">
                         {{-- <i class="nav-icon fas fa-tachometer-alt"></i> --}}
                         <p>
-                            Products
+                            Company and Staff
                             <i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
@@ -34,31 +34,31 @@
 
                             <a href="" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Add Product</p>
+                                <p>Search Company</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Product List</p>
+                                <p>Search Staff</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href=" " class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Customer Lists</p>
+                                <p>Search Area Monitor</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Order Details</p>
+                                <p>Search Company By Status</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Order List</p>
+                                <p>Search All by User ID</p>
                             </a>
                         </li>
                     </ul>
@@ -67,7 +67,7 @@
                 <li class="nav-item menu-open">
                     <a href="#" class="nav-link">
                         <p>
-                            Posts
+                            Register New Company
                             <i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
@@ -77,14 +77,14 @@
 
                             <a href="" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Add Posts</p>
+                                <p>-</p>
                             </a>
                         </li>
 
                         <li class="nav-item">
                             <a href="" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Posts Index</p>
+                                <p>-</p>
                             </a>
                         </li>
 

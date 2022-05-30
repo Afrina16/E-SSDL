@@ -29,6 +29,7 @@ Route::get('/form', function () {
     return view('company_stuff');
 });
 
+<<<<<<< Updated upstream
 Route::get('/area', function () {
     return view('area_monitor');
 });
@@ -42,4 +43,10 @@ Route::get('/user', function () {
 });
 
 
+=======
+Route::get('/register', function () {
+    return view('company_registration');
+});
+
+>>>>>>> Stashed changes
 
