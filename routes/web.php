@@ -17,36 +17,28 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/index', function () {
-    return view('index');
+Route::get('/search_company', function () {
+    return view('company_and_staff.search_company');
 });
 
-Route::get('/test', function () {
-    return view('test');
+Route::get('/search_staff', function () {
+    return view('company_and_staff.search_staff');
 });
 
-Route::get('/form', function () {
-    return view('company_stuff');
-});
-
-<<<<<<< Updated upstream
 Route::get('/area', function () {
-    return view('area_monitor');
+    return view('company_and_staff.area_monitor');
 });
 
 Route::get('/status', function () {
-    return view('company_bystatus');
+    return view('company_and_staff.company_bystatus');
 });
 
 Route::get('/user', function () {
-    return view('user_byid');
+    return view('company_and_staff.user_byid');
 });
 
-
-=======
-Route::get('/register', function () {
-    return view('company_registration');
+Route::get('/register_new', function () {
+    return view('register_new_company.company_registration');
 });
 
->>>>>>> Stashed changes
 

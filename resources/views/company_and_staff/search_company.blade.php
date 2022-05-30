@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="card text-dark bg-light mb-3">
-    <div class="card-header">Company & Stuff : Search Company</div>
+    <div class="card-header">Company & Staff : Search Company</div>
     <div class="card-body text-secondary">
         <form>
             <div class="row mb-3">
