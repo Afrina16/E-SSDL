@@ -29,3 +29,7 @@ Route::get('/form', function () {
     return view('company_stuff');
 });
 
+Route::get('/search_staff', function () {
+    return view('search_staff');
+});
+

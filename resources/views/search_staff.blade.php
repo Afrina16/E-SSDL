@@ -3,13 +3,19 @@
 @section('content')
 
 <div class="card text-dark bg-light mb-3">
-    <div class="card-header">Company & Stuff : Search Company</div>
+    <div class="card-header">Company & Stuff : Search Staff</div>
     <div class="card-body text-secondary">
         <form>
             <div class="row mb-3">
                 <label for="name" class="col-sm-2 col-form-label">Name</label>
                 <div class="col-sm-10">
-                    <input type="name" class="form-control" id="name" placeholder="Name">
+                    <input type="text" class="form-control" id="name" placeholder="Name">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="ic" class="col-sm-2 col-form-label">IC/Passport No</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="ic" placeholder="IC/ Passport No.">
                 </div>
             </div>
             <div class="row mb-3">
@@ -25,21 +31,9 @@
                 </div>
             </div>
             <div class="row mb-3">
-                <label for="cid" class="col-sm-2 col-form-label">CID</label>
+                <label for="userId" class="col-sm-2 col-form-label">User Id</label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" id="cid" placeholder="CID">
-                </div>
-            </div>
-            <div class="row mb-3">
-                <label for="codeActivity" class="col-sm-2 col-form-label">Code Activity</label>
-                <div class="col-sm-10">
-                    <select class="form-select" id="codeActivity" aria-label="Please Select">
-                        <option selected disabled>Please Select</option>
-                        <option value="1">00 - Not Define</option>
-                        <option value="2">01 - NTD</option>
-                        <option value="3">02 - Industry</option>
-                        <option value="3">03 - Medical</option>
-                    </select>
+                    <input type="text" class="form-control" id="userId" placeholder="User ID">
                 </div>
             </div>
             <div class="row mb-3">
