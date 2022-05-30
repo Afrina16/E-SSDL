@@ -55828,4 +55828,8 @@ a.text-muted:hover {
     border-color: #4b545c !important
 }
 
+.main-sidebar { 
+    background-color: #333 !important 
+}
+
 /*# sourceMappingURL=adminlte.min.css.map */
