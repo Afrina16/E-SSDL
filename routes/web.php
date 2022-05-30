@@ -25,3 +25,7 @@ Route::get('/test', function () {
     return view('test');
 });
 
+Route::get('/form', function () {
+    return view('company_stuff');
+});
+
