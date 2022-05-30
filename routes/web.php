@@ -29,24 +29,23 @@ Route::get('/form', function () {
     return view('company_stuff');
 });
 
-<<<<<<< Updated upstream
-Route::get('/area', function () {
-    return view('area_monitor');
-});
-
-Route::get('/status', function () {
-    return view('company_bystatus');
+Route::get('/register', function () {
+    return view('company_registration');
 });
 
 Route::get('/user', function () {
     return view('user_byid');
 });
 
-
-=======
-Route::get('/register', function () {
-    return view('company_registration');
+Route::get('/status', function () {
+    return view('company_bystatus');
 });
 
->>>>>>> Stashed changes
+Route::get('/area', function () {
+    return view('area_monitor');
+});
+
+
+
+
 
