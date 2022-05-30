@@ -29,7 +29,17 @@ Route::get('/form', function () {
     return view('company_stuff');
 });
 
-Route::get('/search_staff', function () {
-    return view('search_staff');
+Route::get('/area', function () {
+    return view('area_monitor');
 });
+
+Route::get('/status', function () {
+    return view('company_bystatus');
+});
+
+Route::get('/user', function () {
+    return view('user_byid');
+});
+
+
 
