@@ -41,4 +41,6 @@ Route::get('/register_new', function () {
     return view('register_new_company.company_registration');
 });
 
-
+Route::get('/search_osl', function () {
+    return view('osl_reading.register_osl');
+});
