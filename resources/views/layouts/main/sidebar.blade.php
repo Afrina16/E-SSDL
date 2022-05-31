@@ -96,44 +96,48 @@
                 </li>
                 <li class="nav-item menu-open">
                     <a href="#" class="nav-link">
-                        {{-- <i class="nav-icon fas fa-tachometer-alt"></i> --}}
-                        <p>
-                            OSL Handling
-                            <i class="right fas fa-angle-left"></i>
-                        </p>
+                        OSL Handling
+                        <i class="right fas fa-angle-left"></i>
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
                             <a href="{{ url('/search_company') }}" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Search Company</p>
+                                <p>Search OSL</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="{{ url('/search_staff') }}" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Search Staff</p>
+                                <p>Register OSL To Be Sent</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="{{ url('/area') }} " class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Search Area Monitor</p>
+                                <p>Register OSL Receieved</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="{{ url('/status') }}" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Search Company By Status</p>
+                                <p>Print Report OSL Receieved</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="{{ url('/user') }}" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Search All by User ID</p>
+                                <p>Upload Background(BG) OSL</p>
                             </a>
                         </li>
                     </ul>
+                </li>
+                <li class="nav-item menu-open">
+                    <a href="" class="nav-link">
+                        <i class="nav-icon fas fa-tachometer-alt"></i>
+                        OSL Reading
+                        <i class="right fas fa-angle-left"></i>
+                    </a>
                 </li>
                 <li class="nav-item menu-open">
                     <a href="" class="nav-link">
