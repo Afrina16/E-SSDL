@@ -21,7 +21,30 @@
         <nav class="mt-2">
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                 <li class="nav-item menu-open">
-
+                    <a href="" class="nav-link">
+                        <p>
+                            User Management
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item menu-open">
+                    <a href="" class="nav-link">
+                        <p>
+                            News And Announcement
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item menu-open">
+                    <a href="" class="nav-link">
+                        <p>
+                            Lookup Table
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item menu-open">
                     <a href="#" class="nav-link">
                         {{-- <i class="nav-icon fas fa-tachometer-alt"></i> --}}
                         <p>
@@ -63,7 +86,6 @@
                         </li>
                     </ul>
                 </li>
-
                 <li class="nav-item menu-open">
                     <a href="{{ url('/register_new') }}" class="nav-link">
                         <p>
@@ -71,10 +93,65 @@
                             <i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
-
+                </li>
+                <li class="nav-item menu-open">
+                    <a href="#" class="nav-link">
+                        {{-- <i class="nav-icon fas fa-tachometer-alt"></i> --}}
+                        <p>
+                            OSL Handling
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="{{ url('/search_company') }}" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Search Company</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ url('/search_staff') }}" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Search Staff</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ url('/area') }} " class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Search Area Monitor</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ url('/status') }}" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Search Company By Status</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ url('/user') }}" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Search All by User ID</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item menu-open">
+                    <a href="" class="nav-link">
+                        <p>
+                            Generate PIN Code
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item menu-open">
+                    <a href="" class="nav-link">
+                        <p>
+                            Change Password
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
                 </li>
             </ul>
-
         </nav>
     </div>
 </aside>
